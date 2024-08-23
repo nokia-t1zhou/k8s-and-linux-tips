@@ -135,7 +135,7 @@ master node:
 172.16.57.15 dev flannel.1 lladdr d6:51:2e:80:5c:69 REACHABLE
 ```
 flanneld完成这项工作后，linux kernel就可以在arp table中找到 172.16.57.15对应的mac地址并封装二层以太包了。
-![](../picture/40.jpg)
+![](../picture/41.jpg)
 
 ##### d) kernel的vxlan封包
 我们需要将上述的packet从master node传输到minion node，需要将上述packet再次封包。这个任务在backend为vxlan的flannel network中由linux kernel来完成。
