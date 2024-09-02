@@ -1,6 +1,9 @@
 # 第三方CNI介绍
 
 ## Calico
+
+![](../picture/67.jpg)
+![](../picture/68.jpg)
 它是一个 L3/L4 网络解决方案，
 - 数据平面选择：支持 eBPF、标准 Linux、Windows 和 VPP，实现网络解决方案的多样性。
 - 优化性能：专为高速度和低 CPU 使用率设计，最大化集群投资回报。
